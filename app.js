@@ -3,7 +3,7 @@ const postSection = document.querySelector(".post-section");
 for (i = 0; i < 11; i++) {
   const postDiv = document.createElement("div");
   postDiv.className =
-    "w-[350px] mx-auto rounded-md  bg-gradient-to-r [&:nth-child(5n+1)]:from-[#dfeaef] [&:nth-child(5n+1)]:via-[#daebed] [&:nth-child(5n+1)]:to-[#d3eeec] [&:nth-child(5n+2)]:from-[#d3f0d3] [&:nth-child(5n+2)]:via-[#d5efd1] [&:nth-child(5n+2)]:via-[#dceecc] [&:nth-child(5n+2)]:to-[#e0ecc7] [&:nth-child(5n+3)]:from-[#ffffff] [&:nth-child(5n+3)]:via-[#fbfbfb] [&:nth-child(5n+3)]:to-[#e8e8e8] [&:nth-child(5n+4)]:from-[#ddeec1] [&:nth-child(5n+4)]:via-[#dfedc4] [&:nth-child(5n+4)]:via-[#e5ebcc] [&:nth-child(5n+4)]:to-[#e9e9d1] [&:nth-child(5n+5)]:from-[#fafce8] [&:nth-child(5n+5)]:via-[#eff9e6] [&:nth-child(5n+5)]:via-[#e4f6e4] [&:nth-child(5n+5)]:to-[#d8f2e2]  hover:shadow-md hover:cursor-pointer post-div";
+    "max-w-[380px] mx-auto rounded-md  bg-gradient-to-r [&:nth-child(5n+1)]:from-[#dfeaef] [&:nth-child(5n+1)]:via-[#daebed] [&:nth-child(5n+1)]:to-[#d3eeec] [&:nth-child(5n+2)]:from-[#d3f0d3] [&:nth-child(5n+2)]:via-[#d5efd1] [&:nth-child(5n+2)]:via-[#dceecc] [&:nth-child(5n+2)]:to-[#e0ecc7] [&:nth-child(5n+3)]:from-[#ffffff] [&:nth-child(5n+3)]:via-[#fbfbfb] [&:nth-child(5n+3)]:to-[#e8e8e8] [&:nth-child(5n+4)]:from-[#ddeec1] [&:nth-child(5n+4)]:via-[#dfedc4] [&:nth-child(5n+4)]:via-[#e5ebcc] [&:nth-child(5n+4)]:to-[#e9e9d1] [&:nth-child(5n+5)]:from-[#fafce8] [&:nth-child(5n+5)]:via-[#eff9e6] [&:nth-child(5n+5)]:via-[#e4f6e4] [&:nth-child(5n+5)]:to-[#d8f2e2]  hover:shadow-md hover:cursor-pointer post-div";
   postDiv.innerHTML = singlePost();
   postSection.appendChild(postDiv);
 }
@@ -11,7 +11,7 @@ for (i = 0; i < 11; i++) {
 function singlePost() {
   return `
    <figure>
-            <img src="https://media.sproutsocial.com/uploads/2016/10/Facebook-Posting-Tips-01.png" alt="" class="h-[180px] w-fit rounded-t-md object-cover post-img">
+            <img src="https://media.sproutsocial.com/uploads/2016/10/Facebook-Posting-Tips-01.png" alt="" class=" w-fit rounded-t-md object-cover post-img">
         </figure>
         <div class="px-4 grid items-center my-3">
             <div class="flex gap-4">
